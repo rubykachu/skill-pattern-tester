@@ -1,0 +1,17 @@
+{
+  "skill_name": "backlog-initializer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tạo backlog LOGIN_SCREEN với file spec.csv có sẵn. Hãy convert sang markdown đúng với thuật ngữ.",
+      "expected_output": "Thư mục `backlogs/LOGIN_SCREEN` được clone từ references, file `spec.md` được sinh ra, giữ nguyên các message và thuật ngữ tiếng Nhật trong file CSV.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Vui lòng phân tích user_stories.txt và tạo thư mục backlog tên MY_COMPONENT. Chỉ chuyển format, không sáng tạo.",
+      "expected_output": "Thư mục `backlogs/MY_COMPONENT` được clone từ references, format markdown table được dựng đúng y bản gốc, không thêm/bớt điều kiện.",
+      "files": []
+    }
+  ]
+}

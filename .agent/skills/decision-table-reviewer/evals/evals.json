@@ -1,0 +1,17 @@
+{
+  "skill_name": "decision-table-reviewer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Hãy review file test matrix trong thư mục LOR001_001 xem có coverage đủ spec và security chưa, và gửi report.",
+      "expected_output": "Agent phân tích pattern-1.md so với spec.md, phát hiện thiếu case security, zenkaku/hankaku, chỉ ra các trường hợp mapper sai và báo cáo lỗi vi phạm.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Tôi thấy pattern-1.md ở backlog LOGIN đang thiếu nhiều case. Bạn hãy tự review lại và sửa trực tiếp file đó giúp tôi.",
+      "expected_output": "Agent tự review, thấy các testcase bịa đặt hoặc thiếu, sau đó apply sửa lỗi vào thẳng file pattern-1.md thay vì chỉ chat ra báo cáo.",
+      "files": []
+    }
+  ]
+}

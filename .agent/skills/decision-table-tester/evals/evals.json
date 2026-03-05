@@ -1,0 +1,17 @@
+{
+  "skill_name": "decision-table-tester",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Hãy phân tích spec của backlog `{BACKLOG_NAME}` và tạo Test Matrix vào file `pattern-1.md` ở trong thư mục `patterns`.",
+      "expected_output": "File pattern-1.md được cập nhật nội dung bảng Decision Table Testing đúng chuẩn, bọc bảng vào `<template-testcase>`, đánh map `〇` dựa vào template gốc.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Vùi lòng đọc file spec.md trong thư mục `backlogs/{BACKLOG_NAME}` và tạo giúp tôi kịch bản test case chuyên nghiệp. Hãy đảm bảo format Input/Output gộp chung như hướng dẫn.",
+      "expected_output": "Sinh ra bảng Decision Table hoàn chỉnh gồm các Use Case/Validation được đề cập trong spec.md",
+      "files": []
+    }
+  ]
+}
